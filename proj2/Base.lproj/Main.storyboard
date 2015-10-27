@@ -75,6 +75,17 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fQg-1o-0rG">
+                                <rect key="frame" x="36" y="20" width="100" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="inZ-js-ZUZ"/>
+                                    <constraint firstAttribute="width" constant="100" id="nh5-JG-st4"/>
+                                </constraints>
+                                <state key="normal" title="Start Over"/>
+                                <connections>
+                                    <action selector="startOver:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cmN-Hj-1LL"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -92,9 +103,11 @@
                             <constraint firstItem="lkV-Cq-BCN" firstAttribute="top" secondItem="p3o-f3-nWd" secondAttribute="bottom" constant="18" id="PnD-aD-xEB"/>
                             <constraint firstItem="p3o-f3-nWd" firstAttribute="top" secondItem="Nhe-UQ-BC7" secondAttribute="bottom" constant="26" id="S6u-bZ-RQ8"/>
                             <constraint firstItem="lkV-Cq-BCN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YkP-eS-d8k"/>
+                            <constraint firstItem="fQg-1o-0rG" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="aBn-mC-NZ2"/>
                             <constraint firstAttribute="trailingMargin" secondItem="uT8-zW-eRi" secondAttribute="trailing" id="eIk-Cf-9AS"/>
                             <constraint firstItem="uT8-zW-eRi" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="fGg-xk-MTe"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Nhe-UQ-BC7" secondAttribute="trailing" id="gqw-DG-ToI"/>
+                            <constraint firstItem="fQg-1o-0rG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="16" id="uOc-hQ-Ylv"/>
                             <constraint firstItem="p3o-f3-nWd" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="245" id="zFh-Fk-99p"/>
                         </constraints>
                     </view>
